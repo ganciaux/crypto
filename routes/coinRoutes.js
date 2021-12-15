@@ -2,12 +2,12 @@ const express = require('express');
 const coinController = require('../controllers/coinController');
 const router = express.Router();
 
-//article
+//coin
 router.get('/', coinController.getAllCoins);
 /*
 router.get('/:id', coinController.getCoin);
-router.post('/', articleController.createCoin);
-router.put('/:id', articleController.updateCoin);
-router.delete('/:id', articleController.deleteCoin);
+router.post('/', coinController.createCoin);
+router.put('/:id', coinController.updateCoin);
+router.delete('/:id', coinController.deleteCoin);
 */
 module.exports = router;

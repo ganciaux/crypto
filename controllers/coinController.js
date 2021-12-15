@@ -13,9 +13,9 @@ exports.getAllCoins = async (req, res, next) => {
     };
 
 /*
-exports.getCoin = factory.getOne(Article);
-exports.createCoin = factory.createOne(Article);
-exports.updateCoin = factory.updateOne(Article);
-exports.deleteCoin = factory.deleteOne(Article);
+exports.getCoin = factory.getOne();
+exports.createCoin = factory.createOne();
+exports.updateCoin = factory.updateOne();
+exports.deleteCoin = factory.deleteOne();
 */
 

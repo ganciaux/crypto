@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const db = require('./db.js');
 const coinRoutes = require('./routes/coinRoutes');
+const transactionRoutes = require('./routes/transactionRoutes');
 const appError = require('./utils/appError');
 const cors = require('cors');
 
@@ -27,6 +28,7 @@ app.use(express.urlencoded({ extended: true, limit: '10kb' })); //data from form
 
 //routes
 app.use('/api/coins', coinRoutes);
+app.use('/api/transactions', transactionRoutes);
 app.get('/favicon.ico', (req, res) => res.status(204));
 
 app.all('*', (req, res, next) => {
