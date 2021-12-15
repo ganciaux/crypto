@@ -4,6 +4,10 @@ const router = express.Router();
 
 //transaction
 router.get('/', coinController.getAllTransactions);
+router.get('/coins', coinController.getTransactionByCoins);
+router.get('/coin/:id', coinController.getTransactionsByCoin);
+router.get('/coin/:id/total', coinController.getTransactionByCoin);
+
 /*
 router.get('/:id', coinController.getCoin);
 router.post('/', transactionController.createCoin);
