@@ -1,0 +1,275 @@
+{
+  "coins": [
+    {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "cryptoComId": "AVAX",
+      "coinGeckoId": "avalanche-2",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=qnoTYGHB8fc",
+      "comment": ""
+    },
+    {
+      "name": "BenQi",
+      "symbol": "QI",
+      "cryptoComId": "QI",
+      "coinGeckoId": "benqi",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    },
+    {
+      "name": "Basic Attention Token",
+      "symbol": "BAT",
+      "cryptoComId": "BAT",
+      "coinGeckoId": "basic-attention-token",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=tj2MJysY5tE",
+      "comment": "vendre vers 1.4E avant chute vers 0.77E"
+    },
+    {
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "cryptoComId": "BTC",
+      "coinGeckoId": "bitcoin",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    },
+    {
+      "name": "Cardano",
+      "symbol": "ADA",
+      "cryptoComId": "ADA",
+      "coinGeckoId": "cardano",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=CSfwcJgnvYI",
+      "comment": ""
+    },
+    {
+      "name": "Casper Network",
+      "symbol": "CSPR",
+      "cryptoComId": "CSPR",
+      "coinGeckoId": "casper-network",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=nNfQGtpchME",
+      "comment": "acheter <0.06$ 0.052E"
+    },
+    {
+      "name": "Chiliz",
+      "symbol": "CHZ",
+      "cryptoComId": "CHZ",
+      "coinGeckoId": "chiliz",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=Nd82sjoNAx4",
+      "comment": "achat 0.06/0.16$ vente 0.8/0.9$ avant rechute"
+    },
+    {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "cryptoComId": "ATOM",
+      "coinGeckoId": "cosmos",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=x2kPBs4YerQ",
+      "comment": "vendre vers 33$ 29E avant chute vers 10$ 8.9E"
+    },
+    {
+      "name": "Crypto.com Coin",
+      "symbol": "CRO",
+      "cryptoComId": "CRO",
+      "coinGeckoId": "crypto-com-chain",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=0OY4GMhQQI4",
+      "comment": ""
+    },
+    {
+      "name": "Decentraland",
+      "symbol": "MANA",
+      "cryptoComId": "MANA",
+      "coinGeckoId": "decentraland",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=KCPTNEFltYI",
+      "comment": ""
+    },
+
+    {
+      "name": "Dodge coin",
+      "symbol": "DOGE",
+      "cryptoComId": "DOGE",
+      "coinGeckoId": "dogecoin",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=vXk4MIRMo5c",
+      "comment": ""
+    },
+    {
+      "name": "Elrond",
+      "symbol": "EGLD",
+      "cryptoComId": "EGLD",
+      "coinGeckoId": "elrond-erd-2",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=_ihnpM1bAPY",
+      "comment": ""
+    },
+    {
+      "name": "Enjin Coin",
+      "symbol": "ENJ",
+      "cryptoComId": "ENJ",
+      "coinGeckoId": "enjincoin",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=_ihnpM1bAPY",
+      "comment": ""
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "cryptoComId": "ETH",
+      "coinGeckoId": "ethereum",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    },
+    {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "cryptoComId": "FTM",
+      "coinGeckoId": "fantom",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=o510_6749uw",
+      "comment": ""
+    },
+    {
+      "name": "Gala",
+      "symbol": "GALA",
+      "cryptoComId": "GALA",
+      "coinGeckoId": "gala",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=jv2U4B3TlFg",
+      "comment": ""
+    },
+    {
+      "name": "Holo",
+      "symbol": "HOT",
+      "cryptoComId": "HOT",
+      "coinGeckoId": "holotoken",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=PQVnPuTC_1M",
+      "comment": ""
+    },
+    {
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "cryptoComId": "LTC",
+      "coinGeckoId": "litecoin",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=zsr8HHFfJno",
+      "comment": "vendre > 300/350$ dans vert acheter <110 voir 60/80"
+    },
+    {
+      "name": "My Neighbor Alice",
+      "symbol": "ALICE",
+      "cryptoComId": "ALICE",
+      "coinGeckoId": "my-neighbor-alice",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=zqOnLA4SUfE",
+      "comment": "acheter 8/5$ vendre >24$"
+    },
+    {
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "cryptoComId": "SHIB",
+      "coinGeckoId": "shiba-inu",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=psT5_upTGik",
+      "comment": ""
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "cryptoComId": "SOL",
+      "coinGeckoId": "solana",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=XYdS0vOb3SY",
+      "comment": "acheter 127/100E 137/115...50/60$"
+    },
+    {
+      "name": "Stellar",
+      "symbol": "XLM",
+      "cryptoComId": "XLM",
+      "coinGeckoId": "stellar",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=6ZWW7FHGDCg",
+      "comment": ""
+    },
+    {
+      "name": "The Sandbox",
+      "symbol": "SAND",
+      "cryptoComId": "SAND",
+      "coinGeckoId": "the-sandbox",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=YZITTSr4x_k",
+      "comment": ""
+    },
+    {
+      "name": "Theta Network",
+      "symbol": "THETA",
+      "cryptoComId": "THETA",
+      "coinGeckoId": "theta-token",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=5HoeVFVBYcs",
+      "comment": ""
+    },
+    {
+      "name": " USD Coin",
+      "symbol": "USDC",
+      "cryptoComId": "USDC",
+      "coinGeckoId": "usd-coin",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    },
+    {
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "cryptoComId": "UNI",
+      "coinGeckoId": "uniswap",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    },
+    {
+      "name": "VeChain",
+      "symbol": "VET",
+      "cryptoComId": "VET",
+      "coinGeckoId": "vechain",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=4KvrTNtYDKQ",
+      "comment": "acheter <0.05 vendre 0.18 ou ath"
+    },
+    {
+      "name": "WAX",
+      "symbol": "WAXP",
+      "cryptoComId": "WAXP",
+      "coinGeckoId": "wax",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    },
+    {
+      "name": "Waltonchain",
+      "symbol": "WTC",
+      "cryptoComId": "WTC",
+      "coinGeckoId": "waltonchain",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    },
+    {
+      "name": "Yield Guild Games",
+      "symbol": "YGG",
+      "cryptoComId": "YGG",
+      "coinGeckoId": "yield-guild-games",
+      "isWallet": true,
+      "link": "",
+      "comment": ""
+    }
+  ]
+}
