@@ -1,22 +1,86 @@
 {
   "coins": [
     {
+      "name": "AAVE",
+      "symbol": "AAVE",
+      "cryptoComId": "AAVE",
+      "coinGeckoId": "aave",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=TWnbI0AZWvQ",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 63,
+        "max": 147,
+        "dca": 98,
+        "line50": 343.9
+      }
+    },
+    {
       "name": "Avalanche",
       "symbol": "AVAX",
       "cryptoComId": "AVAX",
       "coinGeckoId": "avalanche-2",
       "isWallet": true,
-      "link": "https://www.youtube.com/watch?v=qnoTYGHB8fc",
-      "comment": ""
+      "link": "https://www.youtube.com/watch?v=S7MDUBNVaOg",
+      "comment": "Vendre proche ath car chute 51 ou 9",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 9.0,
+        "max": 51.0,
+        "dca": 0.0,
+        "line50": 74.11
+      }
     },
     {
-      "name": "BenQi",
-      "symbol": "QI",
-      "cryptoComId": "QI",
-      "coinGeckoId": "benqi",
-      "isWallet": true,
-      "link": "",
-      "comment": ""
+      "name": "Band-protocol",
+      "symbol": "BAND",
+      "cryptoComId": "BAND",
+      "coinGeckoId": "band-protocol",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=MZw831tb6BQ&t=3s",
+      "comment": "Acheter vers en dessous de 3.5 possible monté jusqua 30/48",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 1.015,
+        "max": 3.33,
+        "dca": 3.33,
+        "line50": 11.715
+      }
     },
     {
       "name": "Basic Attention Token",
@@ -25,7 +89,54 @@
       "coinGeckoId": "basic-attention-token",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=tj2MJysY5tE",
-      "comment": "vendre vers 1.4E avant chute vers 0.77E"
+      "comment": "vendre vers 1.4E avant chute vers 0.77E",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.7,
+        "max": 0.8,
+        "dca": 0.9,
+        "line50": 1.0
+      }
+    },
+    {
+      "name": "BenQi",
+      "symbol": "QI",
+      "cryptoComId": "QI",
+      "coinGeckoId": "benqi",
+      "isWallet": true,
+      "link": "",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.18
+      }
     },
     {
       "name": "Bitcoin",
@@ -33,8 +144,27 @@
       "cryptoComId": "BTC",
       "coinGeckoId": "bitcoin",
       "isWallet": true,
-      "link": "",
-      "comment": ""
+      "link": "https://www.youtube.com/watch?v=LXsaIkSoi1Y",
+      "comment": "vendre dernier rester eth avant baisse",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 29000,
+        "dca": 0.0,
+        "line50": 0.0
+      }
     },
     {
       "name": "Cardano",
@@ -42,8 +172,27 @@
       "cryptoComId": "ADA",
       "coinGeckoId": "cardano",
       "isWallet": true,
-      "link": "https://www.youtube.com/watch?v=CSfwcJgnvYI",
-      "comment": ""
+      "link": "https://www.youtube.com/watch?v=SnjmWgMqrok",
+      "comment": "Attendre pour acheter",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.55,
+        "max": 0.9,
+        "dca": 0.7,
+        "line50": 1.562
+      }
     },
     {
       "name": "Casper Network",
@@ -52,7 +201,53 @@
       "coinGeckoId": "casper-network",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=nNfQGtpchME",
-      "comment": "acheter <0.06$ 0.052E"
+      "comment": "acheter <0.06$ 0.052E",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.05,
+        "max": 0.07,
+        "dca": 0.07,
+        "line50": 0.21
+      }
+    },
+    {
+      "name": "Celo",
+      "symbol": "CELO",
+      "cryptoComId": "CELO",
+      "coinGeckoId": "celo",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=C-MO9wIWhXM",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 1.65,
+        "max": 2.71,
+        "dca": 2.2,
+        "line50": 6.22
+      }
     },
     {
       "name": "Chiliz",
@@ -61,7 +256,54 @@
       "coinGeckoId": "chiliz",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=Nd82sjoNAx4",
-      "comment": "achat 0.06/0.16$ vente 0.8/0.9$ avant rechute"
+      "comment": "achat 0.06/0.16$ vente 0.8/0.9$ avant rechute",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.05,
+        "max": 0.16,
+        "dca": 0.09,
+        "line50": 0.47
+      }
+    },
+    {
+      "name": "Compond",
+      "symbol": "COMP",
+      "cryptoComId": "COMP",
+      "coinGeckoId": "compound-governance-token",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=4V-G-WZN_Js",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 165,
+        "max": 175,
+        "dca": 175,
+        "line50": 496.9
+      }
     },
     {
       "name": "Cosmos",
@@ -70,7 +312,53 @@
       "coinGeckoId": "cosmos",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=x2kPBs4YerQ",
-      "comment": "vendre vers 33$ 29E avant chute vers 10$ 8.9E"
+      "comment": "vendre vers 33$ 29E avant chute vers 10$ 8.9E",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 8.5,
+        "max": 17.25,
+        "dca": 14.8,
+        "line50": 22.92
+      }
+    },
+    {
+      "name": "Coti",
+      "symbol": "COTI",
+      "cryptoComId": "COTI",
+      "coinGeckoId": "coti",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=J2zAIZfPuiU",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.088,
+        "max": 0.225,
+        "dca": 0.225,
+        "line50": 0.35
+      }
     },
     {
       "name": "Crypto.com Coin",
@@ -79,7 +367,26 @@
       "coinGeckoId": "crypto-com-chain",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=0OY4GMhQQI4",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.27,
+        "max": 0.33,
+        "dca": 0.33,
+        "line50": 0.486
+      }
     },
     {
       "name": "Decentraland",
@@ -88,9 +395,81 @@
       "coinGeckoId": "decentraland",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=KCPTNEFltYI",
-      "comment": ""
-    },
+      "comment": "vendre proche ath attendre baisse",
+      "total": 0.0,
 
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.98,
+        "max": 1.7,
+        "dca": 1.5,
+        "line50": 2.96
+      }
+    },
+    {
+      "name": "Decred",
+      "symbol": "DCR",
+      "cryptoComId": "DCR",
+      "coinGeckoId": "decred",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=0OhRj762gRk",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 34,
+        "max": 59,
+        "dca": 6,
+        "line50": 127.9
+      }
+    },
+    {
+      "name": "Dent",
+      "symbol": "DENT",
+      "cryptoComId": "DENT",
+      "coinGeckoId": "dent",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=8qA10dBdpB0",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0006,
+        "max": 0.0015,
+        "dca": 0.0009,
+        "line50": 0.011
+      }
+    },
     {
       "name": "Dodge coin",
       "symbol": "DOGE",
@@ -98,7 +477,53 @@
       "coinGeckoId": "dogecoin",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=vXk4MIRMo5c",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.065,
+        "max": 0.1,
+        "dca": 0.08,
+        "line50": 0.37
+      }
+    },
+    {
+      "name": "EOS",
+      "symbol": "EOS",
+      "cryptoComId": "EOS",
+      "coinGeckoId": "eos",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=KTZEVcx_J1c",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 1.4,
+        "max": 3,
+        "dca": 2.2,
+        "line50": 12.28
+      }
     },
     {
       "name": "Elrond",
@@ -107,7 +532,26 @@
       "coinGeckoId": "elrond-erd-2",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=_ihnpM1bAPY",
-      "comment": ""
+      "comment": "si retour ath plongeon vers 50",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 40.0,
+        "max": 100.0,
+        "dca": 80.0,
+        "line50": 274.44
+      }
     },
     {
       "name": "Enjin Coin",
@@ -116,7 +560,26 @@
       "coinGeckoId": "enjincoin",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=_ihnpM1bAPY",
-      "comment": ""
+      "comment": "vendre depasse prix achat",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.4,
+        "max": 1,
+        "dca": 0.75,
+        "line50": 2.4
+      }
     },
     {
       "name": "Ethereum",
@@ -125,7 +588,26 @@
       "coinGeckoId": "ethereum",
       "isWallet": true,
       "link": "",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
     },
     {
       "name": "Fantom",
@@ -133,8 +615,81 @@
       "cryptoComId": "FTM",
       "coinGeckoId": "fantom",
       "isWallet": true,
-      "link": "https://www.youtube.com/watch?v=o510_6749uw",
-      "comment": ""
+      "link": "https://www.youtube.com/watch?v=g4fYh9nmavo",
+      "comment": "Possible remontée ath avant chute",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.3,
+        "max": 0.9,
+        "dca": 0.6,
+        "line50": 1.73
+      }
+    },
+    {
+      "name": "Filecoin",
+      "symbol": "FIL",
+      "cryptoComId": "FIL",
+      "coinGeckoId": "filecoin",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=wRJmFab1Q6c",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 23,
+        "max": 30,
+        "dca": 28,
+        "line50": 123.71
+      }
+    },
+    {
+      "name": "Flow",
+      "symbol": "FLOW",
+      "cryptoComId": "FLOW",
+      "coinGeckoId": "flow",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=uS8vqnjm1mE&t=390s",
+      "comment": "attentre bqisse passage 7/6",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 4,
+        "max": 6.5,
+        "dca": 6,
+        "line50": 21.75
+      }
     },
     {
       "name": "Gala",
@@ -143,7 +698,26 @@
       "coinGeckoId": "gala",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=jv2U4B3TlFg",
-      "comment": ""
+      "comment": "attendre ath avant chute >",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.14,
+        "max": 0.25,
+        "dca": 0.3,
+        "line50": 0.429
+      }
     },
     {
       "name": "Holo",
@@ -152,7 +726,81 @@
       "coinGeckoId": "holotoken",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=PQVnPuTC_1M",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0024,
+        "max": 0.0047,
+        "dca": 0.004,
+        "line50": 0.0159
+      }
+    },
+    {
+      "name": "Jasmy",
+      "symbol": "JASMY",
+      "cryptoComId": "JASMY",
+      "coinGeckoId": "jasmycoin",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=hMebhCuhm1M",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.008,
+        "max": 0.07,
+        "dca": 0.05,
+        "line50": 1.5
+      }
+    },
+    {
+      "name": "Kadena",
+      "symbol": "KDA",
+      "cryptoComId": "KDA",
+      "coinGeckoId": "kadena",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=DpzX_865fe4",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 5.5,
+        "max": 8.5,
+        "dca": 7.5,
+        "line50": 14.05
+      }
     },
     {
       "name": "Litecoin",
@@ -160,8 +808,81 @@
       "cryptoComId": "LTC",
       "coinGeckoId": "litecoin",
       "isWallet": true,
-      "link": "https://www.youtube.com/watch?v=zsr8HHFfJno",
-      "comment": "vendre > 300/350$ dans vert acheter <110 voir 60/80"
+      "link": "https://www.youtube.com/watch?v=rvxiFujqJSk",
+      "comment": "vendre > 300/350$ dans vert acheter <110 voir 60/80",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 20.0,
+        "max": 100.0,
+        "dca": 80.0,
+        "line50": 217.5
+      }
+    },
+    {
+      "name": "Mirror protocol",
+      "symbol": "MIR",
+      "cryptoComId": "MIR",
+      "coinGeckoId": "mirror-protocol",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=ixQNc4HTZHk",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 1.8,
+        "max": 2.17,
+        "dca": 2.07,
+        "line50": 8.49
+      }
+    },
+    {
+      "name": "Moonriver",
+      "symbol": "MOVR",
+      "cryptoComId": "MOVR",
+      "coinGeckoId": "moonriver",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=giNkdKIJgQY&t=434s",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 121,
+        "max": 182,
+        "dca": 182,
+        "line50": 255.63
+      }
     },
     {
       "name": "My Neighbor Alice",
@@ -170,7 +891,188 @@
       "coinGeckoId": "my-neighbor-alice",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=zqOnLA4SUfE",
-      "comment": "acheter 8/5$ vendre >24$"
+      "comment": "acheter 8/5$ vendre >24$",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 4.53,
+        "max": 8,
+        "dca": 8,
+        "line50": 29.86
+      }
+    },
+    {
+      "name": "Pancakeswap-token",
+      "symbol": "CAKE",
+      "cryptoComId": "CAKE",
+      "coinGeckoId": "pancakeswap-token",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=EZt6tPRWPaw",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 8.2,
+        "max": 9.4,
+        "dca": 9.4,
+        "line50": 26.2
+      }
+    },
+    {
+      "name": "Paris Saint-Germain Fan Token",
+      "symbol": "PSG",
+      "cryptoComId": "PSG",
+      "coinGeckoId": "paris-saint-germain-fan-token",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=y8jR-sqxi2o",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 10.19,
+        "max": 12.6,
+        "dca": 11.6,
+        "line50": 33.05
+      }
+    },
+    {
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "cryptoComId": "DOT",
+      "coinGeckoId": "polkadot",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=z2BB4iFh2Nc",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 7,
+        "max": 22,
+        "dca": 16,
+        "line50": 28.59
+      }
+    },
+    {
+      "name": "Polygon",
+      "symbol": "MATIC",
+      "cryptoComId": "MATIC",
+      "coinGeckoId": "matic-network",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=FOUatWHkCtk",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.5,
+        "max": 0.745,
+        "dca": 0.621,
+        "line50": 1.355
+      }
+    },
+    {
+      "name": "QTUM",
+      "symbol": "QTUM",
+      "cryptoComId": "QTUM",
+      "coinGeckoId": "qtum",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=4YK9J1St12U",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 1.8,
+        "max": 7,
+        "dca": 5.75,
+        "line50": 39.8
+      }
+    },
+    {
+      "name": "Ripple",
+      "symbol": "XRP",
+      "cryptoComId": "XRP",
+      "coinGeckoId": "ripple",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=AlSssriiwPA",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.448,
+        "max": 0.56,
+        "dca": 0.51,
+        "line50": 1.69
+      }
     },
     {
       "name": "Shiba Inu",
@@ -178,8 +1080,54 @@
       "cryptoComId": "SHIB",
       "coinGeckoId": "shiba-inu",
       "isWallet": true,
-      "link": "https://www.youtube.com/watch?v=psT5_upTGik",
-      "comment": ""
+      "link": "https://www.youtube.com/watch?v=WDWJL5mnpjM",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.00001,
+        "max": 0.000018,
+        "dca": 0.0,
+        "line50": 0.000046
+      }
+    },
+    {
+      "name": "Smooth Love Potion",
+      "symbol": "SLP",
+      "cryptoComId": "SLP",
+      "coinGeckoId": "smooth-love-potion",
+      "isWallet": true,
+      "link": "https://www.youtube.com/watch?v=LBzli5AC4pI",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.025,
+        "max": 0.029,
+        "dca": 0.027,
+        "line50": 0.239
+      }
     },
     {
       "name": "Solana",
@@ -188,7 +1136,26 @@
       "coinGeckoId": "solana",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=XYdS0vOb3SY",
-      "comment": "acheter 127/100E 137/115...50/60$"
+      "comment": "acheter 127/100E 137/115...50/60$",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 67,
+        "max": 115,
+        "dca": 110,
+        "line50": 130
+      }
     },
     {
       "name": "Stellar",
@@ -197,7 +1164,108 @@
       "coinGeckoId": "stellar",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=6ZWW7FHGDCg",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.127,
+        "max": 0.22,
+        "dca": 0.199,
+        "line50": 0.408
+      }
+    },
+    {
+      "name": "Sushi",
+      "symbol": "SUSHI",
+      "cryptoComId": "SUSHI",
+      "coinGeckoId": "sushi",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=-fp0vmFwfjY",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 2.2,
+        "max": 3.1,
+        "dca": 2.2,
+        "line50": 11.92
+      }
+    },
+    {
+      "name": "Tezos",
+      "symbol": "XTZ",
+      "cryptoComId": "XTZ",
+      "coinGeckoId": "tezos",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=X5DqDVjSihI",
+      "comment": "Acheter vers 2.00 avant retour ath",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.95,
+        "max": 2.1,
+        "dca": 1.57,
+        "line50": 4.94
+      }
+    },
+    {
+      "name": "The Graph",
+      "symbol": "GRT",
+      "cryptoComId": "GRT",
+      "coinGeckoId": "the-graph",
+      "isWallet": false,
+      "link": "",
+      "comment": "descendre zone alert puis intention ath",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.42,
+        "max": 0.55,
+        "dca": 0.5,
+        "line50": 1.44
+      }
     },
     {
       "name": "The Sandbox",
@@ -205,8 +1273,27 @@
       "cryptoComId": "SAND",
       "coinGeckoId": "the-sandbox",
       "isWallet": true,
-      "link": "https://www.youtube.com/watch?v=YZITTSr4x_k",
-      "comment": ""
+      "link": "https://www.youtube.com/watch?v=Ba1XBXPMwT4",
+      "comment": "Attendre utad ? si passe dessous 3,5 attendre 2,5",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 3.5,
+        "max": 4.0,
+        "dca": 3.5,
+        "line50": 3.81
+      }
     },
     {
       "name": "Theta Network",
@@ -215,16 +1302,54 @@
       "coinGeckoId": "theta-token",
       "isWallet": true,
       "link": "https://www.youtube.com/watch?v=5HoeVFVBYcs",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 2.63,
+        "max": 3.85,
+        "dca": 3.65,
+        "line50": 7.88
+      }
     },
     {
-      "name": " USD Coin",
+      "name": "USD Coin",
       "symbol": "USDC",
       "cryptoComId": "USDC",
       "coinGeckoId": "usd-coin",
       "isWallet": true,
       "link": "",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
     },
     {
       "name": "Uniswap",
@@ -233,7 +1358,26 @@
       "coinGeckoId": "uniswap",
       "isWallet": true,
       "link": "",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
     },
     {
       "name": "VeChain",
@@ -241,8 +1385,27 @@
       "cryptoComId": "VET",
       "coinGeckoId": "vechain",
       "isWallet": true,
-      "link": "https://www.youtube.com/watch?v=4KvrTNtYDKQ",
-      "comment": "acheter <0.05 vendre 0.18 ou ath"
+      "link": "https://www.youtube.com/watch?v=JkmhQVGWBAw",
+      "comment": "acheter <0.05 vendre 0.18 ou ath",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.037,
+        "max": 0.059,
+        "dca": 0.059,
+        "line50": 0.139
+      }
     },
     {
       "name": "WAX",
@@ -251,7 +1414,26 @@
       "coinGeckoId": "wax",
       "isWallet": true,
       "link": "",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
     },
     {
       "name": "Waltonchain",
@@ -260,7 +1442,26 @@
       "coinGeckoId": "waltonchain",
       "isWallet": true,
       "link": "",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
     },
     {
       "name": "Yield Guild Games",
@@ -269,7 +1470,26 @@
       "coinGeckoId": "yield-guild-games",
       "isWallet": true,
       "link": "",
-      "comment": ""
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
     }
   ]
 }

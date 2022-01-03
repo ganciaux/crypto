@@ -3,38 +3,12 @@ const slug = require('mongoose-slug-updater')
 
 mongoose.plugin(slug)
 
-const coinSchema = new mongoose.Schema(
+const coinNewSchema = new mongoose.Schema(
   {
     name: {
       type: String,
       required: true,
       trim: true,
-    },
-    total: {
-      type: Number,
-      required: true,
-    },
-    eur: {
-      wallet: {
-        type: Number,
-      },
-      purchases: {
-        type: Number,
-      },
-      purchases_avg: {
-        type: Number,
-      },
-    },
-    usd: {
-      wallet: {
-        type: Number,
-      },
-      purchases: {
-        type: Number,
-      },
-      purchases_avg: {
-        type: Number,
-      },
     },
     cryptoComId: {
       type: String,
@@ -82,6 +56,10 @@ const coinSchema = new mongoose.Schema(
         type: Number,
         required: true,
       },
+      target: {
+        type: Number,
+        required: true,
+      },
     },
     transactions: { type: Array, default: [] },
   },
@@ -90,6 +68,6 @@ const coinSchema = new mongoose.Schema(
   },
 )
 
-const CoinModel = mongoose.model('Coin', coinSchema)
+const CoinNewModel = mongoose.model('CoinNew', coinNewSchema)
 
-module.exports = CoinModel
+module.exports = CoinNewModel

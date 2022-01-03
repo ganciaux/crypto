@@ -5,7 +5,7 @@ exports.getAllTransactions = async (req, res, next) => {
     const transactions = await Transaction.aggregate([
       {
         $group: {
-          _id: '$transation_kind',
+          _id: '$transaction_kind',
           native_amount_usd: { $sum: '$native_amount_usd' },
           native_amount: { $sum: '$native_amount' },
         },
@@ -133,7 +133,7 @@ exports.test = async (req, res, next) => {
       {
         $lookup: {
           from: 'coins',
-          localField: 'crytoComId',
+          localField: 'cryptoComId',
           foreignField: 'currency',
           as: 'data',
         },

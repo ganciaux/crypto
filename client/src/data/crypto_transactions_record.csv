@@ -1,0 +1,47 @@
+Timestamp (UTC),Transaction Description,Currency,Amount,To Currency,To Amount,Native Currency,Native Amount,Native Amount (in USD),Transaction Kind
+2021-12-22 22:14:35,USDC -> FIL,USDC,-20.054516,FIL,0.55,EUR,17.65,20.1939320945,crypto_exchange
+2021-12-22 16:55:34,Card Cashback,CRO,4.35670032,,,EUR,2.09,2.3912361517,referral_card_cashback
+2021-12-22 15:45:52,Card Cashback,CRO,0.14913813,,,EUR,0.07,0.0800892491,referral_card_cashback
+2021-12-22 15:38:52,Card Cashback,CRO,4.54615642,,,EUR,2.16,2.4713254008,referral_card_cashback
+2021-12-21 20:29:35,USDC -> SLP,USDC,-20.52841,SLP,650.0,EUR,18.14,20.7545568382,crypto_exchange
+2021-12-20 20:54:30,Mission Rewards Deposit,CRO,0.7,,,EUR,0.3,0.343239639,rewards_platform_deposit_credited
+2021-12-20 20:50:57,USDC -> THETA,USDC,-20.442622,THETA,5.0,EUR,18.07,20.6744675891,crypto_exchange
+2021-12-19 21:24:19,USDC -> MIR,USDC,-20.936484,MIR,8.0,EUR,18.57,21.2465336541,crypto_exchange
+2021-12-19 10:21:47,Card Cashback,CRO,1.42332928,,,EUR,0.67,0.7665685271,referral_card_cashback
+2021-12-18 14:39:47,Card Cashback,CRO,1.7025738,,,EUR,0.81,0.9267470253,referral_card_cashback
+2021-12-18 14:27:33,Card Cashback,CRO,1.49654294,,,EUR,0.71,0.8123338123,referral_card_cashback
+2021-12-17 07:52:43,Card Cashback,CRO,0.31937303,,,EUR,0.15,0.1716198195,referral_card_cashback
+2021-12-16 13:07:59,Card Cashback,CRO,0.42433178,,,EUR,0.21,0.2402677473,referral_card_cashback
+2021-12-16 12:42:11,Card Cashback,CRO,0.15804154,,,EUR,0.08,0.0915305704,referral_card_cashback
+2021-12-14 22:02:12,Mission Rewards Deposit,CRO,2.0,,,EUR,0.96,1.0983668448,rewards_platform_deposit_credited
+2021-12-14 22:00:20,Buy USDC,USDC,500.0,,,EUR,445.47,509.6765399511,crypto_purchase
+2021-12-10 17:57:52,Card Cashback,CRO,0.6268859,,,EUR,0.31,0.3546809603,referral_card_cashback
+2021-12-10 17:33:45,Card Cashback,CRO,4.32091499,,,EUR,2.14,2.4484427582,referral_card_cashback
+2021-12-06 17:53:36,Card Cashback,CRO,5.01497462,,,EUR,2.45,2.8031237185,referral_card_cashback
+2021-12-04 16:59:15,Mission Rewards Deposit,CRO,1.9,,,EUR,0.96,1.0983668448,rewards_platform_deposit_credited
+2021-12-04 14:33:02,Buy ATOM,ATOM,5.0,,,EUR,115.77,132.4561766901,crypto_purchase
+2021-12-04 14:26:33,Buy ETH,ETH,0.03,,,EUR,107.08,122.5136684804,crypto_purchase
+2021-12-04 14:23:43,Buy BAT,BAT,60.0,,,EUR,57.98,66.3367808974,crypto_purchase
+2021-12-04 14:18:31,Buy YGG,YGG,20.0,,,EUR,109.59,125.3854401267,crypto_purchase
+2021-12-04 14:15:34,Buy LTC,LTC,0.8,,,EUR,111.52,127.5936151376,crypto_purchase
+2021-12-04 14:12:55,Buy EGLD,EGLD,0.4,,,EUR,105.91,121.1750338883,crypto_purchase
+2021-12-04 14:10:27,Buy ALICE,ALICE,8.0,,,EUR,104.66,119.7448687258,crypto_purchase
+2021-12-02 17:44:51,Card Cashback,CRO,1.12086975,,,EUR,0.69,0.7894511697,referral_card_cashback
+2021-12-02 17:44:34,Card Cashback,CRO,1.12116135,,,EUR,0.69,0.7894511697,referral_card_cashback
+2021-11-30 16:25:13,Card Cashback,CRO,0.43310142,,,EUR,0.27,0.3089156751,referral_card_cashback
+2021-11-30 11:54:47,Buy EGLD,EGLD,0.2,,,EUR,69.7,79.746009461,crypto_purchase
+2021-11-30 11:51:24,Buy WTC,WTC,100.0,,,EUR,87.64,100.2717398732,crypto_purchase
+2021-11-30 11:34:35,Buy CHZ,CHZ,250.0,,,EUR,100.84,115.3742839892,crypto_purchase
+2021-11-29 06:48:58,Card Cashback,CRO,3.42728549,,,EUR,2.33,2.6658278629,referral_card_cashback
+2021-11-27 14:07:43,Card Cashback,CRO,4.54360011,,,EUR,3.2,3.661222816,referral_card_cashback
+2021-11-26 21:26:22,Mission Rewards Deposit,CRO,1.8,,,EUR,1.11,1.2699866643,rewards_platform_deposit_credited
+2021-11-26 21:22:45,Buy EGLD,EGLD,0.2,,,EUR,73.17,83.7161479521,crypto_purchase
+2021-11-26 21:18:17,Buy SOL,SOL,0.663,,,EUR,118.21,135.2478590873,crypto_purchase
+2021-11-26 21:14:57,Buy XLM,XLM,100.0,,,EUR,30.19,34.5413490047,crypto_purchase
+2021-11-26 19:54:27,Supercharger Deposit (via app),CRO,-100.0,,,EUR,-60.49,-69.2085525437,supercharger_deposit
+2021-11-26 14:06:17,Buy BTC,BTC,0.0025,,,EUR,122.1,139.698533073,crypto_purchase
+2021-11-26 06:19:03,Buy QI,QI,500.0,,,EUR,110.62,126.5638962206,crypto_purchase
+2021-11-25 05:01:39,Buy VET,VET,1000.0,,,EUR,112.61,128.8407191593,crypto_purchase
+2021-11-24 21:14:52,Buy CSPR,CSPR,1000.0,,,EUR,152.69,174.6975349297,crypto_purchase
+2021-11-24 07:41:39,Mission Rewards Deposit,CRO,2.5,,,EUR,1.94,2.2196163322,rewards_platform_deposit_credited
+2021-11-23 17:33:58,USDC -> CRO,USDC,-96.270779,CRO,115.0,EUR,84.89,97.1253765157,crypto_exchange
