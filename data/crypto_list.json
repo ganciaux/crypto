@@ -167,6 +167,34 @@
       }
     },
     {
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "cryptoComId": "BNB",
+      "coinGeckoId": "binancecoin",
+      "isWallet": true,
+      "link": "",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
+    },
+    {
       "name": "Cardano",
       "symbol": "ADA",
       "cryptoComId": "ADA",
@@ -967,6 +995,33 @@
       }
     },
     {
+      "name": "Poken",
+      "symbol": "PKN",
+      "cryptoComId": "PKN",
+      "coinGeckoId": "poken",
+      "isWallet": true,
+      "link": "",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0,
+        "max": 0,
+        "dca": 0,
+        "line50": 0
+      }
+    },
+    {
       "name": "Polkadot",
       "symbol": "DOT",
       "cryptoComId": "DOT",
@@ -1440,6 +1495,34 @@
       "symbol": "WTC",
       "cryptoComId": "WTC",
       "coinGeckoId": "waltonchain",
+      "isWallet": true,
+      "link": "",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
+    },
+    {
+      "name": "The Winkyverse",
+      "symbol": "WNK",
+      "cryptoComId": "WNK",
+      "coinGeckoId": "the-winkyverse",
       "isWallet": true,
       "link": "",
       "comment": "",
