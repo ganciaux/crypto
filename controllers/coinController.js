@@ -1,5 +1,6 @@
 const Coin = require('../models/coinModel')
 const CoinNew = require('../models/coinModelNew')
+const mock = require('../data/coingecko.json')
 
 const axios = require('axios')
 const fs = require('fs')
@@ -51,7 +52,7 @@ const getCoins = (vs_currency, ids) => {
       .then((res) => res.data)
       .catch((err) => {
         console.log('error:', err.response)
-        return err
+        return mock
       })
   } catch (err) {
     console.log(err)
