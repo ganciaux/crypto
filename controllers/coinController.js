@@ -218,6 +218,9 @@ exports.getAllCoinsNew = async (req, res, next) => {
   const headers = {
     total_purchases: 0.0,
     total_profit: 0.0,
+    mission: 0.0,
+    cashback: 0.0,
+    withdrawal: 0.0,
   }
   try {
     //const coins = await CoinNew.find({ cryptoComId: 'CRO' })
@@ -234,6 +237,7 @@ exports.getAllCoinsNew = async (req, res, next) => {
         purchases_avg: 0.0,
         purchases: 0.0,
         exchange: 0.0,
+        withdrawal: 0.0,
         profit: 0.0,
         current_price: 0.0,
         current_price_to_ath: 0.0,
@@ -276,20 +280,32 @@ exports.getAllCoinsNew = async (req, res, next) => {
                 resume.coins += transaction.amount
                 resume.exchange += transaction[native_amount]
               }
-            } else if (
-              transaction.transaction_kind === 'referral_card_cashback' ||
-              transaction.transaction_kind ===
-                'rewards_platform_deposit_credited' ||
-              transaction.transaction_kind === 'referral_gift'
-            ) {
+            } else if (transaction.transaction_kind === 'referral_gift') {
               resume.coins += transaction.amount
             } else if (transaction.transaction_kind === 'lockup_lock') {
             } else if (
-              transaction.transaction_kind === 'supercharger_deposit'
+              transaction.transaction_kind === 'supercharger_deposit' ||
+              transaction.transaction_kind === 'supercharger_withdrawal'
             ) {
               resume.coins += transaction.amount
-              total += transaction.to_amount
-              resume.purchases += transaction[native_amount]
+              //total += transaction.to_amount
+              //resume.purchases += transaction[native_amount]
+            } else if (
+              transaction.transaction_kind === 'referral_card_cashback' ||
+              transaction.transaction_kind === 'card_cashback_reverted'
+            ) {
+              resume.coins += transaction.amount
+              headers.cashback += transaction[native_amount]
+            } else if (
+              transaction.transaction_kind ===
+              'rewards_platform_deposit_credited'
+            ) {
+              resume.coins += transaction.amount
+              headers.mission += transaction[native_amount]
+            } else if (transaction.transaction_kind === 'crypto_withdrawal') {
+              resume.coins += transaction.amount
+              resume.withdrawal += transaction[native_amount]
+              headers.withdrawal += transaction[native_amount]
             } else {
               console.log(
                 coin.cryptoComId,
@@ -299,10 +315,26 @@ exports.getAllCoinsNew = async (req, res, next) => {
             }
           })
           //
+          switch (coin.symbol) {
+            case 'WNK':
+              resume.coins = 3701.784
+              resume.exchange = -100
+              break
+            case 'PKN':
+              resume.coins = 1872.344
+              resume.exchange = -100
+              break
+            default:
+              break
+          }
+          //
           console.log(coin.cryptoComId, resume.purchases, total)
           if (total > 0) resume.purchases_avg = resume.purchases / total
           resume.wallet = resume.coins * market.current_price
-          resume.profit = resume.wallet + (resume.exchange - resume.purchases)
+          resume.profit =
+            resume.wallet +
+            (resume.exchange - resume.purchases) -
+            resume.withdrawal
           //
           resume.current_price_to_ath = getVariation(
             market.current_price,
