@@ -46,6 +46,7 @@ const getPrecision = (number) => {
 }
 
 const getCoins = (vs_currency, ids) => {
+  console.log(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=${vs_currency}&ids=${ids}`)
   try {
     return api
       .get(`/coins/markets?vs_currency=${vs_currency}&ids=${ids}`)
