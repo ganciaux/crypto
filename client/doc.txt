@@ -1,1 +1,9 @@
 mongod --dbpath /Users/ganciaux/data/db
+
+comp: 124
+cro: 0.20
+casper: 0.05
+fil: 19/17
+grt:0.29
+kda:2.2
+mir:1.34

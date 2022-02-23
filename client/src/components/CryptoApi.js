@@ -13,7 +13,7 @@ import {
 } from '@ant-design/icons'
 
 const coinGecko = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'http://localhost:4000/api',
 })
 
 const CryptoApi = () => {
@@ -225,6 +225,17 @@ const CryptoApi = () => {
                   </span>
                 </div>
                 <div>
+                  <span className="coin-label">Total: </span>
+                  <span className="coin-value">
+                    <span>
+                      {(coin.market.coins * coin.market.purchases_avg).toFixed(
+                        2,
+                      )}
+                      {currency}
+                    </span>
+                  </span>
+                </div>
+                <div>
                   <span className="coin-label">Wallet: </span>
                   <span className="coin-value">
                     <span>
@@ -248,7 +259,7 @@ const CryptoApi = () => {
                 <div>
                   <span className="coin-label">Purchases:</span>
                   <span className="coin-value">
-                    {coin.market.purchases_avg.toFixed(2)}
+                    {coin.market.purchases_avg.toFixed(coin.market.precision)}
                     {currency}{' '}
                     {coin.market.isLine50 ? (
                       <CheckCircleOutlined />
@@ -370,6 +381,15 @@ const CryptoApi = () => {
             </Col>
           ))}
         </Row>
+        <div>Symbol;Coins;Purchase;Profit;Current;</div>
+        {coinsFiltered?.map((coin) => (
+          <div>
+            {coin.symbol};{coin.market.coins};
+            {(coin.market.coins * coin.market.purchases_avg).toFixed(2)};
+            {coin.market.profit};{coin.market.current_price}
+            <br />
+          </div>
+        ))}
         <Modal
           title="Crypto details"
           visible={isModalVisible}

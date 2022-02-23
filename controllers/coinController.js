@@ -316,12 +316,14 @@ exports.getAllCoinsNew = async (req, res, next) => {
           //
           switch (coin.symbol) {
             case 'WNK':
-              resume.coins = 3701.784
-              resume.exchange = -100
+              resume.coins = total = 3701.784
+              resume.purchases = 100
+              resume.precision = 6
               break
             case 'PKN':
-              resume.coins = 1872.344
-              resume.exchange = -100
+              resume.coins = total = 1872.344
+              resume.purchases = 100
+              resume.precision = 6
               break
             default:
               break

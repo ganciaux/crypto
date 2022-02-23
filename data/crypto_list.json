@@ -28,6 +28,33 @@
       }
     },
     {
+      "name": "Algorand",
+      "symbol": "ALGO",
+      "cryptoComId": "ALGO",
+      "coinGeckoId": "algorand",
+      "isWallet": false,
+      "link": "",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.75,
+        "max": 1.2,
+        "dca": 1,
+        "line50": 1.77
+      }
+    },
+    {
       "name": "Avalanche",
       "symbol": "AVAX",
       "cryptoComId": "AVAX",
@@ -188,10 +215,10 @@
       },
       "alert": {
         "target": 0.0,
-        "min": 0.0,
-        "max": 0,
-        "dca": 0.0,
-        "line50": 0.0
+        "min": 147,
+        "max": 211,
+        "dca": 119,
+        "line50": 347.9
       }
     },
     {
@@ -217,8 +244,8 @@
       "alert": {
         "target": 0.0,
         "min": 0.55,
-        "max": 0.9,
-        "dca": 0.7,
+        "max": 1.21,
+        "dca": 1.13,
         "line50": 1.562
       }
     },
@@ -575,9 +602,9 @@
       },
       "alert": {
         "target": 0.0,
-        "min": 40.0,
-        "max": 100.0,
-        "dca": 80.0,
+        "min": 50.0,
+        "max": 171.0,
+        "dca": 133.0,
         "line50": 274.44
       }
     },
@@ -831,6 +858,33 @@
       }
     },
     {
+      "name": "Komodo",
+      "symbol": "KDM",
+      "cryptoComId": "KDM",
+      "coinGeckoId": "komodo",
+      "isWallet": false,
+      "link": "https://www.youtube.com/watch?v=TsrTFVgOokQ",
+      "comment": "",
+      "total": 0.0,
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.48,
+        "max": 0.48,
+        "dca": 0.48,
+        "line50": 2.56
+      }
+    },
+    {
       "name": "Litecoin",
       "symbol": "LTC",
       "cryptoComId": "LTC",
@@ -1018,7 +1072,7 @@
         "min": 0,
         "max": 0,
         "dca": 0,
-        "line50": 0
+        "line50": 0.060661
       }
     },
     {
@@ -1151,10 +1205,10 @@
       },
       "alert": {
         "target": 0.0,
-        "min": 0.00001,
-        "max": 0.000018,
-        "dca": 0.0,
-        "line50": 0.000046
+        "min": 0.000016,
+        "max": 0.000026,
+        "dca": 0.000018,
+        "line50": 0.000047
       }
     },
     {
@@ -1209,7 +1263,7 @@
         "min": 67,
         "max": 115,
         "dca": 110,
-        "line50": 130
+        "line50": 125.9
       }
     },
     {
@@ -1379,6 +1433,62 @@
       }
     },
     {
+      "name": "UMA",
+      "symbol": "UMA",
+      "cryptoComId": "UMA",
+      "coinGeckoId": "uma",
+      "isWallet": true,
+      "link": "",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "dca": 0.0,
+        "line50": 0.0
+      }
+    },
+    {
+      "name": "ultra",
+      "symbol": "UOS",
+      "cryptoComId": "UOS",
+      "coinGeckoId": "ultra",
+      "isWallet": false,
+      "link": "",
+      "comment": "",
+      "total": 0.0,
+
+      "eur": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "usd": {
+        "wallet": 0.0,
+        "purchases": 0.0,
+        "purchases_avg": 0.0
+      },
+      "alert": {
+        "target": 0.0,
+        "min": 0.55,
+        "max": 0.9,
+        "dca": 0.89,
+        "line50": 1.279
+      }
+    },
+    {
       "name": "USD Coin",
       "symbol": "USDC",
       "cryptoComId": "USDC",
@@ -1543,7 +1653,7 @@
         "min": 0.0,
         "max": 0.0,
         "dca": 0.0,
-        "line50": 0.0
+        "line50": 0.020597
       }
     },
     {
