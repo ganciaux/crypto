@@ -129,6 +129,8 @@ const CryptoMarketApi = ({ coin }) => {
       </Select>
       <LineChart
         coinHistory={coinHistory}
+        coinAlert={coin.alert}
+        coinTransactions={coin.transactions}
         currentPrice={coin.market.current_price}
         coinName={coin.name}
         isEuro={false}

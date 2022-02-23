@@ -39,6 +39,7 @@ const CrypoCoinsRead = async (file) => {
         coin.cryptoComId === transaction.currency ||
         coin.cryptoComId === transaction.to_currency
       ) {
+        
         if (transaction['transaction_kind'] !== 'lockup_lock') {
           const amount = formatValue(transaction['amount'])
           const to_amount = formatValue(transaction['to_amount'])
@@ -46,11 +47,12 @@ const CrypoCoinsRead = async (file) => {
           const native_amount_usd = formatValue(
             transaction['native_amount_usd'],
           )
-          console.log(transaction)
+
+          //console.log(transaction)
           if (transaction['transaction_kind'] === 'crypto_purchase') {
             total.eur.purchases += native_amount
             total.usd.purchases += native_amount_usd
-            console.log(total)
+            //console.log(total)
           }
           if (transaction['currency'] === coin.cryptoComId) {
             total.total += amount
@@ -83,6 +85,7 @@ const CrypoCoinsRead = async (file) => {
             total.usd.wallet += native_amount_usd
           } else {
             /* */
+            console.log(transaction['transaction_kind'])
           }
         }
 
@@ -153,12 +156,65 @@ const CrypoComTransactionRead = async (file) => {
   return transactions
 }
 
-const importData = async () => {
-  await deleteData()
+const BinanceTransactionRead = async (file) => {
+  let headers = []
+  let transactions = []
+  const data = fs.readFileSync(`${__dirname}${file}`, 'utf8')
+  const lines = data.toString().split('\r\n')
+  lines.forEach((line, index) => {
+    if (line.length > 0) {
+      const cells = line.split(';')
+      if (index === 0) {
+        headers = cells
+      } else {
+        const cell = cells.reduce(
+          (acc, cur, index) => ({ ...acc, [headers[index]]: cur }),
+          {},
+        )
+        cell['From_Amount']=cell['Sell'].split(' ')[0]
+        cell['To_Amount']=cell['Buy'].split(' ')[0]
+        cell['From_Currency']=cell['Sell'].split(' ')[1]
+        cell['To_Currency']=cell['Buy'].split(' ')[1]
+        console.log(cell)
+        
+        
+        transactions.push({
+          date: cell['Date'],
+          transaction_description: cell['Type'],
+          currency: cell['From_Currency'],
+          amount: cell['From_Amount'],
+          to_currency: cell['To_Currency'],
+          to_amount: cell['To_Amount'] ,
+          native_currency: cell['USDT'],
+          native_amount: cell['From_Currency'] === 'USDT' ? cell['From_Amount'] : cell['To_Amount'],
+          native_amount_usd: cell['From_Currency'] === 'USDT' ? cell['From_Amount'] : cell['To_Amount'],
+          transaction_kind: cell['Type'],
+        })
+      }
+    }
+  })
+
+  console.log('BinanceTransactionRead:', transactions.length)
+  await Transaction.insertMany(transactions)
+
+  return transactions
+}
+
+const importDataCro = async () => {
   try {
     await CrypoComTransactionRead('/crypto_transactions_record.csv')
     await CrypoCoinsRead('/crypto_list.json')
-    console.log('Data successfully loaded !')
+    console.log('Data Crypto.com successfully loaded !')
+  } catch (err) {
+    console.log(err)
+  }
+  process.exit()
+}
+
+const importDataBin = async () => {
+  try {
+    await BinanceTransactionRead('/binance.csv')
+    console.log('Data binance successfully loaded !')
   } catch (err) {
     console.log(err)
   }
@@ -166,7 +222,12 @@ const importData = async () => {
 }
 
 if (process.argv[2] === '--import') {
-  importData()
+  importDataCro()
+}
+else if (process.argv[2] === '--importbin') {
+    importDataBin()
 } else if (process.argv[2] === '--delete') {
   deleteData()
+}else{
+
 }

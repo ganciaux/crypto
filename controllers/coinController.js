@@ -1,5 +1,6 @@
 const Coin = require('../models/coinModel')
 const CoinNew = require('../models/coinModelNew')
+const mock = require('../data/coingecko.json')
 
 const axios = require('axios')
 const fs = require('fs')
@@ -45,13 +46,14 @@ const getPrecision = (number) => {
 }
 
 const getCoins = (vs_currency, ids) => {
+  console.log(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=${vs_currency}&ids=${ids}`)
   try {
     return api
       .get(`/coins/markets?vs_currency=${vs_currency}&ids=${ids}`)
       .then((res) => res.data)
       .catch((err) => {
         console.log('error:', err.response)
-        return err
+        return mock
       })
   } catch (err) {
     console.log(err)
